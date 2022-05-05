@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-               // git branch: 'main', url: 'https://github.com/BALABHASKARARAO/hello-wolrd.git'
+                git branch: 'main', url: 'https://github.com/BALABHASKARARAO/hello-wolrd.git'
                 sh "ls"
                 sh 'echo bala'
             }
