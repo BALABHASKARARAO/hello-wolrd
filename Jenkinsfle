@@ -1,10 +1,12 @@
 pipeline {
     agent any
-
     stages {
-        stage('Hello') {
+        stage('Build') {
             steps {
-                echo 'Hello dsafsaWorld'
+                // Get some code from a GitHub repository
+               // git branch: 'main', url: 'https://github.com/BALABHASKARARAO/hello-wolrd.git'
+                sh "ls"
+                sh 'echo bala'
             }
         }
     }
